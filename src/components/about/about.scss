@@ -1,0 +1,22 @@
+.about{
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        .imageContainer{
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}

@@ -15,4 +15,28 @@
             background-color: white;
         }
     }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+     .wrapper{
+        max-width: 1366px;
+        height:100%;
+        margin:auto;
+        display: flex;
+        gap: 50px;
+        img{
+            flex:1;
+            height: 50%;
+            object-fit: cover;
+        }
+
+        .textContainer{
+            flex:1;
+        }
+     }
+    }
 }

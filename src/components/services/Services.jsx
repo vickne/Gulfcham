@@ -40,14 +40,14 @@ const Services = () => {
         </motion.div>
         <motion.div className="titleContainer" variants={variants}>
             <div className="title">
-                <img src="/people.webp" alt="" />
+                <img src="/gulfchem-brand-henkal.jpg" alt="" />
                 <h1>
-                    <motion.b whileHover={{color:"orange"}}>Lorem </motion.b> Ipsum
+                    <motion.b whileHover={{color:"#1aaae2"}}>Our </motion.b>Brand
                 </h1>
             </div>
             <div className="title">
                 <h1>
-                    <motion.b whileHover={{color:"orange"}}>Lorem ipsum</motion.b> Lorem.
+                    <motion.b whileHover={{color:"#ed1b24"}}>Henkal</motion.b>
                 </h1>
                 <button>WHAT WE DO?</button>
             </div>

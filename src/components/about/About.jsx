@@ -21,11 +21,11 @@ distribution activities through a professionally trained
 sales team.
 We, at Gulfchem WLL strive hard to offer our
 customers, a diverse and comprehensive portfolio of
-superior quality products from world-wide suppliers.</p>
+superior quality products from world-wide suppliers.</p><br/><br/>
 <h2>OUR VISION</h2>
 <p>The vision of Gulfchem W.L.L is to offer technically
 compact, reliable and cost effective services to all our
-esteemed customers.</p>
+esteemed customers.</p><br/><br/>
 <h2>OUR MISSION</h2>
 <p>We strive for ‘excellence’ by providing customized
 solutions, products & services that best satisfies the

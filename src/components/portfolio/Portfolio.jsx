@@ -5,27 +5,27 @@ import {useRef} from "react";
 const items = [
     {
         id:1,
-        title:"React Commerce",
-        img:"https://arisebahrain.com/thermal-paper-roll.jpg",
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        title:"Ethics",
+        img:"/professionalism.jpg",
+        desc:"Uncompromising Integrity, Honesty & Fairness",
     },
     {
         id:2,
-        title:"Commerce",
-        img:"https://arisebahrain.com/Thermal-Label-Sticker.jpg",
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        title:"Sustainability",
+        img:"/professionalism.jpg",
+        desc:"We plan and act for the future & continuous development of our company and community.",
     },
     {
         id:3,
-        title:"React",
-        img:"https://arisebahrain.com/computer-forms.jpg",
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        title:"Mutual Respect",
+        img:"/professionalism.jpg",
+        desc:"We do the right thing and treat each other with respect.Commitment to international standards of safety and quality. Commitment to Time and Cost.",
     },
     {
         id:4,
-        title:"Wax",
-        img:"https://arisebahrain.com/wax-ribbon.jpg",
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        title:"Professionalism",
+        img:"/professionalism.jpg",
+        desc:"We maintain the highest standards of Excellency, corporate behaviour and performance",
     },
 ];
 
@@ -73,7 +73,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
         <div className="progress">
-            <h1>Featured Works</h1>
+            <h1>Core Values</h1>
             <motion.div style={{ scaleX }} className="progressBar"></motion.div>
         </div>
         {items.map(item=>(

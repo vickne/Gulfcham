@@ -9,22 +9,22 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return <div>
     <section id="Homepage">
       <Navbar/>
       <Hero/>
+      <Sidebar/>
     </section>
    
     <section id="AboutUs"><Parallax type="Aboutus"/></section>
     <section><About/></section>
     <section id="WeTrade"><Parallax type="wetrade"/></section>   
-    <section><Services/></section>  
-    <section><Portfolio/></section>  
-    <section id="OurBrand">Our Brand</section>
-    <section id="OurClients">Our Clients</section>
-    <section><Sidebar/></section>
+    <section id="services"><Services/></section>  
+    <Portfolio/>
+    <section id="Contact"><Contact/></section>  
   </div>;
 };
 

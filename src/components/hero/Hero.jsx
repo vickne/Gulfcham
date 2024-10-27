@@ -61,7 +61,7 @@ const Hero = () => {
             KINGDOM OF BAHRAIN
         </motion.div>
         <div className="imageContainer">
-            <img src="/hero.png" alt="" />
+            <img src="/gulfchem-hero.png" alt="" />
         </div>
     </div>
   )

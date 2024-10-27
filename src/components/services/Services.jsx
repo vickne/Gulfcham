@@ -33,39 +33,42 @@ const Services = () => {
     animate={ isInView && "animate"}
     >
         <motion.div className="textContainer" variants={variants}>
-            <p>Neque porro quisquam est qui dolorem <br />
-            ipsum quia dolor 
+            <p>Technomelt<br />
+            Aquence 
             </p>
             <hr/>
         </motion.div>
         <motion.div className="titleContainer" variants={variants}>
             <div className="title">
-                <img src="/people.webp" alt="" />
+                <img src="/gulfchem-brand-henkal.jpg" alt="" />
                 <h1>
-                    <motion.b whileHover={{color:"orange"}}>Lorem </motion.b> Ipsum
+                    <motion.b whileHover={{color:"#1aaae2"}}>Our </motion.b>Brand
                 </h1>
             </div>
             <div className="title">
                 <h1>
-                    <motion.b whileHover={{color:"orange"}}>Lorem ipsum</motion.b> Lorem.
+                    <motion.b whileHover={{color:"#ed1b24"}}>Henkal</motion.b>
                 </h1>
                 <button>WHAT WE DO?</button>
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
-                <h2>Heading</h2>
+                <h2>HOT-MELT ADHESIVE (HMA)</h2>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                Hot-melt adhesive (HMA), also known as hot glue, is a form of thermoplastic adhesive that is commonly sold as solid cylindrical sticks of various diameters
+                designed to be applied using a hot glue gun. In industrial use, hot-melt adhesives provide several advantages over solvent-based adhesives. Volatile organic compounds are reduced or eliminated, and the drying or curing step is eliminated. Hot-melt
+                adhesives have a long shelf life and usually can be disposed of without special precautions.
                 </p>
-                <button>Contact</button>
+                <button>Enquiry</button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
-                <h2>Heading</h2>
+                <h2>AQUENCE-WATER BASED ADHESIVE</h2>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p>
-                <button>Contact</button>
+                Aquence-Water Based Adhesive is a Innovative,sustainable, water-based adhesive solutions.
+                Henkel's AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the
+                global market leader in water-based adhesives AQUENCE improves our customer's Total Cost of Ownership and product quality.                </p>
+                <button>Enquiry</button>
             </motion.div>
         </motion.div>
     </motion.div>

@@ -1,3 +1,4 @@
+
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -35,18 +36,4 @@ section{
     }
 }
 
-  @media (max-width: 767.98px) {
-    .navbar .wrapper {
-        display: grid;
-    }
-       }
-/* iphone14 pro max */
-@media only screen 
-       and (device-width: 430px) 
-       and (device-height: 932px) 
-       and (-webkit-device-pixel-ratio: 3) {
-        .navbar .wrapper {
-            display: grid;
-        }
-       }
-   
+

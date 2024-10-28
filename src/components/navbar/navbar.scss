@@ -1,3 +1,5 @@
+$sm: 320px;
+$md: 768px;
 .navbar{
     height: 100px;
 
@@ -21,6 +23,16 @@
                 width: 18px;
                 height: 18px;
             }
+        }
+    }
+    @media only screen and (min-width: $sm) {
+        .wrapper {
+            display: grid;
+        }
+    }
+    @media only screen and (min-width: $md) {
+        .wrapper {
+            display: grid;
         }
     }
 }

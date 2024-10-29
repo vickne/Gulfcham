@@ -1,5 +1,6 @@
 import "./contact.scss"
-import { animate, motion } from "framer-motion";
+import { animate, motion, useInView } from "framer-motion";
+import {useRef} from "react";
 const variants = {
     initial:{
         y: 100,
@@ -15,6 +16,10 @@ const variants = {
     },
     };
 const Contact = () => {
+	const ref = useRef();
+
+	const isInView = useInView(ref,{ margin:"-100px" });
+
   return (
     <motion.div className="contact" variants={variants} initial="initial" whileInView="animate">
         <motion.div className="textContainer" variants={variants}>
@@ -47,7 +52,7 @@ const Contact = () => {
 	<g>
 		<motion.path 
         initial={{pathLength:0}}
-        whileInView={{pathLength:1}}
+        animate={ isInView && { pathLength:1 }}
         transition={{ duration: 3 }}
          d="M234.093,422.76l-23.992-41.56c-6.616-11.464-21.328-15.4-32.784-8.784l-6.928,4c-5.552,3.208-12.008,4.056-18.208,2.4
 			c-6.192-1.664-11.368-5.632-14.568-11.184l-40-69.28c-3.2-5.552-4.056-12.016-2.4-18.208c1.664-6.192,5.632-11.368,11.184-14.568

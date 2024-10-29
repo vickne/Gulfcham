@@ -6,25 +6,25 @@ const items = [
     {
         id:1,
         title:"Ethics",
-        img:"/professionalism.jpg",
+        img:"/ethics.png",
         desc:"Uncompromising Integrity, Honesty & Fairness",
     },
     {
         id:2,
         title:"Sustainability",
-        img:"/professionalism.jpg",
+        img:"/sustainability.png",
         desc:"We plan and act for the future & continuous development of our company and community.",
     },
     {
         id:3,
         title:"Mutual Respect",
-        img:"/professionalism.jpg",
+        img:"/mutual-respect.png",
         desc:"We do the right thing and treat each other with respect.Commitment to international standards of safety and quality. Commitment to Time and Cost.",
     },
     {
         id:4,
         title:"Professionalism",
-        img:"/professionalism.jpg",
+        img:"/professionalism.png",
         desc:"We maintain the highest standards of Excellency, corporate behaviour and performance",
     },
 ];

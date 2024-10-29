@@ -1,4 +1,21 @@
+$sm: 320px;
+$md: 768px;
 .hero{
+
+    @media only screen and (min-width: $sm) {
+        .wrapper{
+            max-width: 300px;
+        }
+        .textContainer{
+            width: 100%;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 10px;
+        }
+    }
     height: calc(100vh - 100px);
     overflow: hidden;
     background: linear-gradient(180deg, #1aaae2, #0d3d63);
@@ -19,7 +36,7 @@
 
             h2{
                 font-size: 30px;
-                color:rebeccapurple;
+                color:#fcd125;
                 letter-spacing: 10px;
             }
             h1 {

@@ -30,9 +30,4 @@ $md: 768px;
             display: grid;
         }
     }
-    @media only screen and (min-width: $md) {
-        .wrapper {
-            display: grid;
-        }
-    }
 }

@@ -61,10 +61,19 @@
             height: 100px;
             border-radius: 50px;
             object-fit: cover;
+
+            @include mobile{
+                width: 200px;
+                height: 50px;
+             }
         }
         h1{
             font-size: 96px;
             font-weight: 100px;
+
+            @include mobile{
+               font-size: 36px;
+            }
         }
 
         button{
@@ -75,6 +84,12 @@
             border: none;
             font-size: 24px;
             cursor: pointer;
+
+            @include mobile{
+                font-size: 16px;
+                width: 150px;
+                height: 50px;
+             }
         }
     }
 }
@@ -83,6 +98,10 @@
     display: flex;
     max-width: 1366px;
     margin: auto;
+    @include mobile{
+        flex-direction: column;
+        width: 100%;
+     }
 
     .box{
         padding: 50px;

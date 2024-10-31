@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return <div>
@@ -24,7 +25,8 @@ const App = () => {
     <section id="WeTrade"><Parallax type="wetrade"/></section>   
     <section id="services"><Services/></section>  
     <Portfolio/>
-    <section id="Contact"><Contact/></section>  
+    <section id="Contact"><Contact/></section>
+    <Cursor/>  
   </div>;
 };
 

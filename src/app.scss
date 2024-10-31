@@ -42,13 +42,13 @@ section{
     }
 }
 
-@mixin mobile{
+@mixin tablet{
     @media (max-width: 738px) {
         @content;
     }
 }
 
-@mixin mobile{
+@mixin desktop{
     @media (max-width: 738px) {
         @content;
     }

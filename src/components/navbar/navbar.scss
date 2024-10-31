@@ -1,5 +1,4 @@
-$sm: 320px;
-$md: 768px;
+@import "../../app.scss";
 .navbar{
     height: 100px;
 
@@ -10,6 +9,11 @@ $md: 768px;
         align-items: center;
         justify-content: space-around;
         height: 100%;
+
+        
+        @include mobile{
+            justify-content: flex-end;
+        }
 
         span{
             font-weight: bold;
@@ -25,9 +29,9 @@ $md: 768px;
             }
         }
     }
-    @media only screen and (min-width: $sm) {
+    /*@media only screen and (min-width: $sm) {
         .wrapper {
             display: grid;
         }
-    }
+    }*/
 }

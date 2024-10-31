@@ -1,10 +1,11 @@
 import "./navbar.scss"
-
+import Sidebar from "../sidebar/Sidebar"
 const Navbar = () => {
   return (
     <div className="navbar">
-    {/*sidebar*/}
+    
     <div className="wrapper">
+        <span><Sidebar/></span>
         <span><img src="/gulfchem-logo.png" style={{width: "100px"}} alt=""/></span>
         <div className="social">
         <a href=""><img src="/facebook.png" alt=""/></a>

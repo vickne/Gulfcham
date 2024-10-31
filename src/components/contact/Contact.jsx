@@ -1,6 +1,7 @@
 import "./contact.scss"
 import { animate, motion, useInView } from "framer-motion";
-import {useRef} from "react";
+import {useRef, useState} from "react";
+import emailjs from '@emailjs/browser';
 const variants = {
     initial:{
         y: 100,
@@ -17,6 +18,25 @@ const variants = {
     };
 const Contact = () => {
 	const ref = useRef();
+	const formRef = useRef();
+	const [error, setError] = useState(false);
+	const [success, setSuccess] = useState(false);
+	const sendEmail = (e) => {
+		e.preventDefault();
+	
+		emailjs
+		  .sendForm('service_ziefloi', 'template_wldq5zq', formRef.current, {
+			publicKey: 'u-qHP1sWHIQYOurD9',
+		  })
+		  .then(
+			() => {
+			  setSuccess(true)
+			},
+			(error) => {
+			  setError(true)
+			},
+		  );
+	  };
 
 	const isInView = useInView(ref,{ margin:"-100px" });
 
@@ -172,11 +192,14 @@ const Contact = () => {
             initial={{ opacity: 1 }}
              whileInView={{opacity: 1 }}
              transition={{ delay: 4, duration: 1}}
+			 ref={formRef} onSubmit={sendEmail}
             >
-                <input type="text" required placeholder="Name"/>
-                <input type="email" required placeholder="Email"/>
-                <textarea rows={8} placeholder="Message" />
+                <input type="text" required placeholder="Name"  name="from_name" />
+                <input type="email" required placeholder="Email" name="user_email"/>
+                <textarea rows={8} placeholder="Message" name="message"/>
                 <button>Submit</button>
+				{error && "Error"}
+				{success && "Success"}
             </motion.form>
         </motion.div>
     </motion.div>

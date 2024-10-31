@@ -14,6 +14,7 @@ import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return <div>
+     <Cursor/>
     <section id="Homepage">
       <Navbar/>
       <Hero/>
@@ -25,8 +26,7 @@ const App = () => {
     <section id="WeTrade"><Parallax type="wetrade"/></section>   
     <section id="services"><Services/></section>  
     <Portfolio/>
-    <section id="Contact"><Contact/></section>
-    <Cursor/>  
+    <section id="Contact"><Contact/></section>  
   </div>;
 };
 

@@ -7,6 +7,9 @@
     background-color: white;
     color: black;
 
+    @include mobile{
+        flex-direction: column;
+    }
     .bg{
         z-index: 999;
         position: fixed;

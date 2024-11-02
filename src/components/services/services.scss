@@ -6,8 +6,10 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 15px;
+
     @include mobile{
         justify-content: center;
+        transform: none;
     }
 
 .textContainer{

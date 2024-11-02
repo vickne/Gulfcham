@@ -1,4 +1,4 @@
-import "clients.scss";
+import "./clients.scss";
 import {useRef} from "react";
 
 const items = [
@@ -32,32 +32,63 @@ const items = [
         title:"Maskati",
         img:"/maskati.png",
     },
+    {
+        id:7,
+        title:"Aqua",
+        img:"/aqua.png",
+    },
+    {
+        id:8,
+        title:"Awal-Press",
+        img:"/awalpress.png",
+    },
+    {
+        id:9,
+        title:"bwbb",
+        img:"/bwbb.png",
+    },
+    {
+        id:10,
+        title:"Imprensa",
+        img:"/imprensa.png",
+    },
+    {
+        id:11,
+        title:"Arabian-Impressions",
+        img:"/arabian-impressions.png",
+    },
+    {
+        id:12,
+        title:"Maskati",
+        img:"/maskati.png",
+    },
 ];
 
 const Single = ({item}) =>{
     const ref = useRef();
     return (
-        <section>
-                <div className="container">
-                    <div className="wrapper">
+       
                         <div className="imageContainer" ref={ref}>
                             <img src={item.img} title="{item.title}" />
                         </div>
-                    </div>
-                </div>
-            </section>
+                  
             );
     }
 const Clients = () => {
+    const ref = useRef();
     return (
         <div className="clients" ref={ref}>
             <div className="progress">
                 <h2>Clients</h2>
             </div>
+                <div className="container">
+                    <div className="wrapper">
             {items.map(item=>(
                 <Single item ={ item} key= {item.id} />
             ))}
         </div>
+        </div>
+                </div>
       )
 }
 

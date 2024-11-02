@@ -11,6 +11,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
+import Clients from "./components/clients/Clients";
 
 const App = () => {
   return <div>
@@ -25,6 +26,7 @@ const App = () => {
   <section id="trade"><Parallax type="wetrade"/></section>   
   <section id="services"><Services/></section>  
     <Portfolio/>
+    <Clients/>
     <section id="contact"><Contact/></section>
     <div id="copyright">
       <p>

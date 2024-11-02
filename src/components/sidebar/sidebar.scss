@@ -7,9 +7,6 @@
     background-color: white;
     color: black;
 
-    @include mobile{
-        flex-direction: column;
-    }
     .bg{
         z-index: 999;
         position: fixed;
@@ -33,6 +30,10 @@
             justify-content: center;
             gap: 20px;
 
+            @include mobile{
+                height: auto;
+                top: 70px;
+            }
             a{
                 font-size: 40px;
 

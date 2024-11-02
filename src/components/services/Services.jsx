@@ -53,7 +53,7 @@ const Services = () => {
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
-            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black", margin:"10px"}}>
                 <h2>HOT-MELT ADHESIVE (HMA)</h2>
                 <p>
                 <img src="/hot-melt-adhesives.jpg" alt="" style={{width:"200px"}}/>
@@ -65,7 +65,7 @@ const Services = () => {
                 </p>
                 <button>Enquiry</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black",margin:"10px"}}>
                 <h2>AQUENCE-WATER BASED ADHESIVE</h2>
                 <p>
                 <img src="/water-based-adhesives.jpg" alt="" style={{width:"200px"}}/>

@@ -40,6 +40,7 @@
         @include mobile{
             padding-top: calc(100vh - 100px);
             font-size: 24px;
+            flex-direction: column;
         }
         .imageContainer{
             flex:1;
@@ -75,7 +76,7 @@
             h2{
                 font-size: 72px;
                 @include mobile{
-                    font-size: 36px;
+                    font-size: 20px;
                 }
             }
             p{

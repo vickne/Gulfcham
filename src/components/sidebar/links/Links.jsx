@@ -28,10 +28,9 @@ const itemVariants = {
 const Links = () => {
 
   const items = [
-    "Homepage",
+    "Home",
     "About us",
-    "WeTrade",
-    "OurBrand",
+    "Trade",
     "OurClients",
     "Contact"
   ];

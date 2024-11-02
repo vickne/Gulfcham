@@ -15,17 +15,17 @@ import Cursor from "./components/cursor/Cursor";
 const App = () => {
   return <div>
      <Cursor/>
-    <section id="Homepage">
+    <section id="Home">
       <Navbar/>
       <Hero/>
     </section>
    
-    <section id="AboutUs"><Parallax type="Aboutus"/></section>
+    <section id="About Us"><Parallax type="Aboutus"/></section>
   <section><About/></section>
-   <section id="WeTrade"><Parallax type="wetrade"/></section>   
+  <section id="Trade"><Parallax type="wetrade"/></section>   
   <section id="services"><Services/></section>  
-    {/*   <Portfolio/>
-    <section id="Contact"><Contact/></section> */} 
+    <Portfolio/>
+    {/*   <section id="Contact"><Contact/></section> */} 
   </div>;
 };
 

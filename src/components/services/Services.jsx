@@ -66,8 +66,8 @@ const Services = () => {
                 <h2>AQUENCE-WATER BASED ADHESIVE</h2>
                 <p>
                 Aquence-Water Based Adhesive is a Innovative,sustainable, water-based adhesive solutions.
-                Henkel's AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the
-                global market leader in water-based adhesives AQUENCE improves our customer's Total Cost of Ownership and product quality.                </p>
+                Henkels AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the
+                global market leader in water-based adhesives AQUENCE improves our customers Total Cost of Ownership and product quality.                </p>
                 <button>Enquiry</button>
             </motion.div>
         </motion.div>

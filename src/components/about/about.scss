@@ -1,11 +1,14 @@
-$sm: 320px;
-$md: 768px;
+@import "../../app.scss";
 .about{
     .column {
         float: left;
         width: 50%;
         padding: 10px;
         height: 300px; /* Should be removed. Only for demonstration */
+        @include mobile{
+          width: 100%;
+          float: none;
+      }
         .imageContainer{
             
             img{

@@ -11,6 +11,7 @@
     @include mobile{
         width: 100%;
         padding: 10px;
+        min-width: none;
         flex-direction: column;
     }
     .textContainer{
@@ -45,6 +46,7 @@
         position: relative;
 
         @include mobile{
+            flex: 0;
             width: 100%;
             padding: 50px;
         }
@@ -63,6 +65,7 @@
  
         @include mobile{
             width: 100%;
+            flex-direction: column;
             background-color: #fcd125;
         }
 

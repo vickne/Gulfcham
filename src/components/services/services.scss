@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @include mobile{
+        justify-content: center;
+    }
 
 .textContainer{
     flex: 1;
@@ -20,15 +23,16 @@
     }
   }
   p{
-    font-weight: 200;
-    font-size: 20px;
-    color:gray;
-    text-align:right;
+    font-weight: 100;
+    font-size: 14px;
+    color: #fcd125;
+    text-align:center;
+
   }
   hr{
     width:500px;
     border:none;
-    border-top: 0.5px solid gray;
+    border-top: 0.5px solid #fcd125;
 
     @include mobile{
         width: 300px;
@@ -70,9 +74,19 @@
         h1{
             font-size: 96px;
             font-weight: 100px;
+            text-align: center;
 
             @include mobile{
                font-size: 36px;
+            }
+        }
+        h2{
+            font-size: 20px;
+            font-weight: 100px;
+            text-align: center;
+
+            @include mobile{
+               font-size: 16px;
             }
         }
 
@@ -82,7 +96,7 @@
             border-radius: 50px;
             background-color: #1aaae2;
             border: none;
-            font-size: 24px;
+            font-size: 14px;
             cursor: pointer;
 
             @include mobile{
@@ -104,17 +118,22 @@
      }
 
     .box{
-        padding: 50px;
-        border: 0.5px solid gray;
+        padding: 10px;
+        border: 0.5px solid #fcd125;
         flex-direction: column;
         justify-content: space-between;
-
+        max-width: 380px;
+        max-height: auto;
+        @include mobile{
+            max-width: none;
+            max-height: none;
+         }
         button{
             padding: 10px;
             background-color: #fcd125;
             border:none;
             cursor:pointer;
-
+            text-align: center;
             @include mobile{
                 background-color: transparent;
                 border: 1px solid #fcd125;

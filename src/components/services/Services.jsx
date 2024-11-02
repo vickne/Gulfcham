@@ -53,17 +53,23 @@ const Services = () => {
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
-            <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black"}}>
                 <h2>HOT-MELT ADHESIVE (HMA)</h2>
+                <p>
+                <img src="/hot-melt-adhesives.jpg" alt="" style={{width:"200px"}}/>
+                </p>
                 <p>
                 Hot-melt adhesive (HMA), also known as hot glue, is a form of thermoplastic adhesive that is commonly sold as solid cylindrical sticks of various diameters
                 designed to be applied using a hot glue gun. In industrial use, hot-melt adhesives provide several advantages over solvent-based adhesives. Volatile organic compounds are reduced or eliminated, and the drying or curing step is eliminated. Hot-melt
                 adhesives have a long shelf life and usually can be disposed of without special precautions.
                 </p>
-                <button onClick={()=> {this.props.history.replace('/#contact')}}>Enquiry</button>
+                <button>Enquiry</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black"}}>
                 <h2>AQUENCE-WATER BASED ADHESIVE</h2>
+                <p>
+                <img src="/water-based-adhesives.jpg" alt="" style={{width:"200px"}}/>
+                </p>
                 <p>
                 Aquence-Water Based Adhesive is a Innovative,sustainable, water-based adhesive solutions.
                 Henkels AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the

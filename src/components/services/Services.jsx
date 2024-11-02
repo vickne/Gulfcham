@@ -1,6 +1,6 @@
 import "./services.scss";
 import {motion, useInView} from "framer-motion";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 const variants = {
     initial:{
@@ -53,7 +53,9 @@ const Services = () => {
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
-            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black", margin:"10px"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black", margin:"10px",
+            transition: { ease: "easeOut", duration: .1 } }}
+            >
                 <h2>HOT-MELT ADHESIVE (HMA)</h2>
                 <p>
                 <img src="/hot-melt-adhesives.jpg" alt="" style={{width:"200px"}}/>
@@ -65,7 +67,9 @@ const Services = () => {
                 </p>
                 <button>Enquiry</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black",margin:"10px"}}>
+            <motion.div className="box" whileHover={{background:"#ed1b24", color: "black",margin:"10px",
+            transition: { ease: "easeOut", duration: .1 } }}
+            >
                 <h2>AQUENCE-WATER BASED ADHESIVE</h2>
                 <p>
                 <img src="/water-based-adhesives.jpg" alt="water-based-adhesives-henkel" style={{width:"200px"}}/>

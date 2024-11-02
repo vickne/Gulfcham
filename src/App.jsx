@@ -26,6 +26,11 @@ const App = () => {
   <section id="services"><Services/></section>  
     <Portfolio/>
     <section id="contact"><Contact/></section>
+    <div id="copyright">
+      <p>
+      Copyrights &copy; 2024.All Rights Reserved by Gulfchem.
+      </p>
+        </div>
   </div>;
 };
 

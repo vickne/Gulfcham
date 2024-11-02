@@ -22,7 +22,13 @@ section{
     height: 100vh;
     scroll-snap-align: center;
 }
-
+#services {
+    height: 100%;
+}
+#copyright{
+    height: 20px;
+    text-align: center;
+}
 .course{
     height: 100vh;
     display: flex;

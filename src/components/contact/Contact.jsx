@@ -71,6 +71,7 @@ const Contact = () => {
 				{success && "Success"}
             </motion.form>
         </motion.div>
+        
     </motion.div>
   )
 }

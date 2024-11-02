@@ -2,15 +2,16 @@
 .contact{
     height: 100%;
     min-width: fit-content;
-    margin:auto;
+    margin: 0px 40px;
     display: flex;
     align-items: center;
     gap: 50px;
-    width: 100%;
+    width: 90%;
 
     @include mobile{
         width: 100%;
         padding: 10px;
+        margin: 5px;
         flex-direction: column;
     }
     .textContainer{

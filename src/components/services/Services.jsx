@@ -42,7 +42,7 @@ const Services = () => {
             <div className="title">
                 <img src="/gulfchem-brand-henkal.jpg" alt="" />
                 <h1>
-                    <motion.b whileHover={{color:"#1aaae2"}}>Our </motion.b>Brand
+                    <motion.b whileHover={{color:"#fcd125"}}>Our </motion.b>Brand
                 </h1>
             </div>
             <div className="title">
@@ -60,7 +60,7 @@ const Services = () => {
                 designed to be applied using a hot glue gun. In industrial use, hot-melt adhesives provide several advantages over solvent-based adhesives. Volatile organic compounds are reduced or eliminated, and the drying or curing step is eliminated. Hot-melt
                 adhesives have a long shelf life and usually can be disposed of without special precautions.
                 </p>
-                <button>Enquiry</button>
+                <button onClick={()=> {this.props.history.replace('/#contact')}}>Enquiry</button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
                 <h2>AQUENCE-WATER BASED ADHESIVE</h2>
@@ -68,7 +68,7 @@ const Services = () => {
                 Aquence-Water Based Adhesive is a Innovative,sustainable, water-based adhesive solutions.
                 Henkels AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the
                 global market leader in water-based adhesives AQUENCE improves our customers Total Cost of Ownership and product quality.                </p>
-                <button>Enquiry</button>
+                <button href="#contact">Enquiry</button>
             </motion.div>
         </motion.div>
     </motion.div>

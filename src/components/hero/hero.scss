@@ -90,6 +90,10 @@
         bottom: -120px;
         white-space: nowrap;
         color: #ffffff09;
+        @include mobile{
+            font-size:10vh;
+            bottom: -20px;
+        }
     }
 
 }

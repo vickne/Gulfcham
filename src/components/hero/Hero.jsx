@@ -41,6 +41,19 @@ const sliderVariants = {
     },
 };
 
+const imageVariants = {
+    initial:{
+        y: 0,
+    },
+    animate:{
+        y: "-30%",
+        transition:{
+            repeat:Infinity,
+            repeatType:"mirror",
+            duration: 1,
+        },
+    },
+};
 const Hero = () => {
   return (
     <div className="hero">
@@ -60,9 +73,9 @@ const Hero = () => {
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
             KINGDOM OF BAHRAIN
         </motion.div>
-        <div className="imageContainer">
+        <motion.div div className="imageContainer" variants={imageVariants} initial="initial" animate="animate">
             <img src="/gulfchem-hero.png" alt="" />
-        </div>
+        </motion.div>
     </div>
   )
 }

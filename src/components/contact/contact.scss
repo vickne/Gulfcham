@@ -1,7 +1,7 @@
 @import "../../app.scss";
 .contact{
     height: 100%;
-    min-width: 1366px;
+    min-width: fit-content;
     margin:auto;
     display: flex;
     align-items: center;
@@ -11,7 +11,6 @@
     @include mobile{
         width: 100%;
         padding: 10px;
-        min-width: none;
         flex-direction: column;
     }
     .textContainer{

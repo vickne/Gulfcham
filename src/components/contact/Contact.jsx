@@ -49,7 +49,7 @@ const Contact = () => {
                 <span>info@gulfchem.bh</span>
             </motion.div>
             <motion.div className="item">
-                <h2>Address</h2>.
+                <h2>Address</h2>
                 <span>Unit No. 6, Building No. 2107, Road 1529,<br/>
                  BIW  Salman Industrial City, Al Hidd 115,<br/>
                  Kingdom of Bahrain</span>

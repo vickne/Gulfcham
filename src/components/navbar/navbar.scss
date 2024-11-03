@@ -13,10 +13,18 @@
         
         @include mobile{
             justify-content: flex-end;
+            flex-direction: column;
         }
 
         span{
             font-weight: bold;
+
+            img{
+                width: 220px;
+                @include mobile{
+                    width: 150px !important;
+                }
+            }
         }
 
         .social{

@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: space-around;
         height: 100%;
-
+        background: linear-gradient(316deg, #080808c9, #0885e7d6);
         
         @include mobile{
             justify-content: flex-end;

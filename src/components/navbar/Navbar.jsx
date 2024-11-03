@@ -6,7 +6,7 @@ const Navbar = () => {
     
     <div className="wrapper">
         <span><Sidebar/></span>
-        <span><img src="/gulfchem-logo.png" style={{width: "100px"}} alt=""/></span>
+        <span><img src="/gulfkem-logo.webp" style={{width: "220px"}} alt=""/></span>
         <div className="social">
         <a href=""><img src="/facebook.png" alt=""/></a>
         <a href=""><img src="/instagram.png" alt=""/></a>

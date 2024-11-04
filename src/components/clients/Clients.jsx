@@ -68,7 +68,7 @@ const Single = ({item}) =>{
     const ref = useRef();
     return (
        
-                        <div className="imageContainer" ref={ref}>
+                        <div className="imageContainer col-2" ref={ref}>
                             <img src={item.img} title="{item.title}" />
                         </div>
                   
@@ -78,11 +78,11 @@ const Clients = () => {
     const ref = useRef();
     return (
         <div className="clients" ref={ref}>
-            <div className="progress">
+            <div>
                 <h2>Clients</h2>
             </div>
                 <div className="container">
-                    <div className="wrapper">
+                    <div className="wrapper column">
             {items.map(item=>(
                 <Single item ={ item} key= {item.id} />
             ))}

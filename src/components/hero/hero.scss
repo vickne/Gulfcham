@@ -21,9 +21,10 @@
             @include mobile{
                 height: auto;
                 width: 100%;
-                gap: 5px;
+                gap: 45px;
                 align-items: center;
-                text-align:center;
+                text-align: center;
+                margin-top: 60px;
             }
 
             h2{
@@ -31,7 +32,7 @@
                 color:#fcd125;
                 letter-spacing: 10px;
                 @include mobile{
-                    font-size:10px;
+                    font-size:28px;
                 }
             }
             h1 {

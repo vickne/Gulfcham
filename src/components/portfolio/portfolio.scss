@@ -1,4 +1,9 @@
 @import "../../app.scss";
+#services {
+    @include mobile{
+        height: auto !important;
+    }
+}
 .portfolio{
     position: relative;
 
@@ -12,7 +17,7 @@
         font: size 36px;
 
         @include mobile{
-            padding-top: calc(100vh - 100px);
+            padding-top: calc(100vh - 400px);
             font-size: 24px;
         }
         .progressBar{
@@ -39,7 +44,7 @@
         gap: 50px;
 
         @include mobile{
-            padding-top: calc(100vh - 100px);
+            padding-top: calc(100vh - 400px);
             font-size: 24px;
             flex-direction: column;
         }

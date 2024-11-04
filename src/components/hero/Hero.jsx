@@ -67,7 +67,7 @@ const Hero = () => {
                     <motion.button variants="textVariants"><a href="#trade">We Trade</a></motion.button>
                     <a href="#contact"><motion.button variants="textVariants">Contact Us</motion.button></a>
                 </motion.div>
-                <motion.img  variants="textVariants" animate="scrollButton" src="/scroll.png" alt="" />
+                <motion.img  style={{ overflow: 'scroll' }} variants="textVariants" animate="scrollButton" src="/scroll.png" alt="" />
             </motion.div>
         </div>
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">

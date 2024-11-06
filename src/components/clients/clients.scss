@@ -3,6 +3,7 @@
     background: linear-gradient(180deg, #0d3d63, #111132);
     width: 100%;
     height: 100%;
+    padding: 20px 0px;
     h2{
         text-align: center;
     }
@@ -12,15 +13,18 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
+        padding: 20px 0px;
 
      .wrapper{
         max-width: fit-content;
-        height:100%;
+        height:auto;
         margin:auto;
         display: flex;
         flex-direction: row;
         padding-bottom: 15px;
-        gap: 50px;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-content: start;
 
         @include mobile{
             padding-top: calc(100vh - 100px);
@@ -29,9 +33,10 @@
         }
         .imageContainer{
             flex:1;
-            height: 50%;
+            height: auto;
             display: flex;
             flex-direction: column;
+            flex: 2 0 15%;
             
             @include mobile{
                 width: 100%;
@@ -41,7 +46,7 @@
             img{
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 @include mobile{
                     object-fit: cover;
                 }

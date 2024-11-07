@@ -77,6 +77,7 @@ const Single = ({item}) =>{
 const Clients = () => {
     const ref = useRef();
     return (
+        <section id="clients"> 
         <div className="clients" ref={ref}>
             <div>
                 <h2>Clients</h2>
@@ -89,6 +90,7 @@ const Clients = () => {
         </div>
         </div>
                 </div>
+                </section>
       )
 }
 

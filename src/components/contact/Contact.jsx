@@ -41,6 +41,7 @@ const Contact = () => {
 	const isInView = useInView(ref,{ margin:"-100px" });
 
   return (
+    <section id="contact">
     <motion.div className="contact" variants={variants} initial="initial" whileInView="animate">
         <motion.div className="textContainer" variants={variants}>
             <motion.h1>Let's work together</motion.h1>
@@ -72,6 +73,7 @@ const Contact = () => {
             </motion.form>
         </motion.div>
     </motion.div>
+    </section>
   )
 }
 

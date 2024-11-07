@@ -1,4 +1,10 @@
 @import "../../app.scss";
+#contact{
+    height: 100vh;
+    @include mobile{
+       height: 100%;
+   }
+}
 .contact{
     height: 100%;
     min-width: fit-content;

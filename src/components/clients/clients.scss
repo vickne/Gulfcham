@@ -1,6 +1,12 @@
 @import "../../app.scss";
+#clients{
+ height: 100vh;
+ @include mobile{
+    height: 100%;
+}
+}
 .clients{
-    background: linear-gradient(180deg, #0d3d63, #111132);
+    background: linear-gradient(356deg, rgb(8 8 8), rgba(8, 133, 231, 0.8392156863));
     width: 100%;
     height: 100%;
     padding: 20px 0px;
@@ -27,12 +33,11 @@
         align-content: start;
 
         @include mobile{
-            padding-top: calc(100vh - 100px);
+            //padding-top: calc(100vh - 100px);
             font-size: 24px;
             flex-direction: column;
         }
         .imageContainer{
-            flex:1;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -42,6 +47,7 @@
                 width: 100%;
                 max-height: 300px;
                 height: 100%;
+                flex:1;
             }
             img{
                 width: 100%;

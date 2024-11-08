@@ -34,33 +34,33 @@ const items = [
     },
     {
         id:7,
-        title:"Aqua",
-        img:"/aqua.png",
+        title:"Al Farhan Plastic",
+        img:"/al-farhan-plastic.png",
     },
     {
         id:8,
-        title:"Awal-Press",
-        img:"/awalpress.png",
+        title:"Dar Akhbar Al Khaleej",
+        img:"/dar-akhbar-al-khaleej.png",
     },
     {
         id:9,
-        title:"bwbb",
-        img:"/bwbb.png",
+        title:"Ramez",
+        img:"/ramez.png",
     },
     {
         id:10,
-        title:"Imprensa",
-        img:"/imprensa.png",
+        title:"Jalal Lonics Co Wll",
+        img:"/jalal-lonics-co-wll.png",
     },
     {
         id:11,
-        title:"Arabian-Impressions",
-        img:"/arabian-impressions.png",
+        title:"Wadi Al Salam Tissue",
+        img:"/wadi-al-salam-tissue.png",
     },
     {
         id:12,
-        title:"Maskati",
-        img:"/maskati.png",
+        title:"Global Water Bottling Company",
+        img:"/global-water-bottling-co.png",
     },
 ];
 

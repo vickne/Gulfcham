@@ -4,6 +4,9 @@
     background:linear-gradient(356deg, rgb(8 8 8), rgba(8, 133, 231, 0.8392156863));
     text-align: center;
     padding: 40px;
+    @include mobile{
+        font-size: 10px;
+    }
 }
 .copyright{
   

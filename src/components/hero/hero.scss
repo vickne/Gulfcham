@@ -26,6 +26,14 @@
                 text-align: center;
                 margin-top: 60px;
             }
+            @include tablet{
+                height: auto;
+                width: 100%;
+                gap: 5px;
+                align-items: center;
+                text-align: center;
+                margin-top: 5px;
+            }
 
             h2{
                 font-size: 30px;

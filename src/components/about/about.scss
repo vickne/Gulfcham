@@ -10,6 +10,12 @@
           float: none;
           gap: 20px;
       }
+      @include tablet{
+        width: 100%;
+        float: none;
+        gap: 20px;
+        text-align: center;
+    }
         .imageContainer{
             
             img{
@@ -20,6 +26,11 @@
                   width: 100%;
                   margin-bottom: 20px;
               }
+              @include tablet{
+                width: 50%;
+                float: none;
+                gap: 20px;
+            }
             }
         }
       }

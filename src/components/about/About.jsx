@@ -3,6 +3,7 @@ import "./about.scss"
 
 const About = () => {
   return (
+    <section id="aboutus">
     <div className="about">
         <div className="column">
         <div className="imageContainer">
@@ -36,6 +37,7 @@ all statutory, regulatory, health, safety & environment
 requirements at our work place.</p>
             </div>
         </div>
+        </section>
   )
 };
 

@@ -42,15 +42,15 @@ section{
     }
 }
 
-@mixin mobile-landscape{
-    @media (min-width: 738px) {
-        @content;
-    }
-}
-
 @mixin tablet{
     @media (max-width: 1024px) {
         @content;
+    }
+}
+@media (max-width: 1024px) {
+    section{
+        height: 200vh;
+        scroll-snap-align: center;
     }
 }
 

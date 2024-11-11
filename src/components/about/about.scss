@@ -1,4 +1,9 @@
 @import "../../app.scss";
+#aboutus{
+  @include tablet{
+    height: 153vh;
+}
+}
 .about{
     .column {
         float: left;

@@ -57,9 +57,10 @@
         gap: 50px;
 
         @include mobile{
-            flex-direction: column;
+            flex-direction: row;
             text-align: center;
-            gap: 20px;
+            gap: 6px;
+            padding: 15px 0px;
         }
 
 
@@ -80,7 +81,7 @@
             text-align: center;
 
             @include mobile{
-               font-size: 36px;
+               font-size: 25px;
             }
         }
         h2{
@@ -103,9 +104,9 @@
             cursor: pointer;
 
             @include mobile{
-                font-size: 16px;
-                width: 150px;
-                height: 50px;
+                font-size: 15px;
+                width: 125px;
+                height: 40px;
              }
         }
     }
@@ -131,6 +132,7 @@
         text-align: center;
         @include mobile{
             max-width: none;
+            margin: 26px !important;
          }
          h2{
             font-size: 18px;

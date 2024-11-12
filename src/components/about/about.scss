@@ -1,7 +1,8 @@
 @import "../../app.scss";
 #aboutus{
+  height: 100vh;
   @include tablet{
-    height: 153vh;
+    height: auto;
 }
 }
 .about{

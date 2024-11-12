@@ -24,6 +24,7 @@ const Services = () => {
 
     const isInView = useInView(ref,{ margin:"-100px" });
   return (
+    <section id="services">
     <motion.div className="services" 
     variants={variants} 
     initial="initial" 
@@ -82,6 +83,7 @@ const Services = () => {
             </motion.div>
         </motion.div>
     </motion.div>
+    </section>
   )
 }
 

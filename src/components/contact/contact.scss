@@ -4,6 +4,9 @@
     @include mobile{
        height: 100%;
    }
+   @include tablet{
+    height: auto;
+}
 }
 .contact{
     height: 100%;

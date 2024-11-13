@@ -13,6 +13,7 @@ import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Clients from "./components/clients/Clients";
 import CopyRight from "./components/copyright/CopyRight";
+import Chemicals from "./components/other/chemicals/Chemicals";
 
 const App = () => {
   return <div>
@@ -26,6 +27,7 @@ const App = () => {
     <About/>
     <section id="trade"><Parallax type="wetrade"/></section>   
     <Services/>
+    <Chemicals/>
     <Portfolio/>
     <Clients/>
     <Contact/>

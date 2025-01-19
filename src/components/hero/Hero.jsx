@@ -63,6 +63,14 @@ const Hero = () => {
             >
                 <motion.h1 variants="textVariants">GULFKEM</motion.h1>
                 <motion.h2 variants="textVariants">ADHESIVES & INDUSTRAIAL CHEMICALS</motion.h2>
+                <p>GulfKem Industrial Trading WLL W.L.L established in 2019, is a leading
+Wholesaler, retailer and distributor of Industrial Chemicals and Adhesives
+suppliers at Kingdom of Bahrain. We strive to offers our customers, a
+diverse and comprehensive portfolio of superior quality industrial chemicals
+and adhesive products from world-wide suppliers. Our store located at
+Al-Ramli, Salmabad Industrial Area, Kingdom of Bahrain involved in
+wholesale, retail and distribution activities.
+</p>
                 <motion.div variants="textVariants"className="buttons">
                     <motion.button variants="textVariants"><a href="#trade">We Trade</a></motion.button>
                     <a href="#contact"><motion.button variants="textVariants">Contact Us</motion.button></a>

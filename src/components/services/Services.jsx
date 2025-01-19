@@ -62,9 +62,12 @@ const Services = () => {
                 <img src="/hot-melt-adhesives.jpg" alt="" style={{width:"200px"}}/>
                 </p>
                 <p>
-                Hot-melt adhesive (HMA), also known as hot glue, is a form of thermoplastic adhesive that is commonly sold as solid cylindrical sticks of various diameters
-                designed to be applied using a hot glue gun. In industrial use, hot-melt adhesives provide several advantages over solvent-based adhesives. Volatile organic compounds are reduced or eliminated, and the drying or curing step is eliminated. Hot-melt
-                adhesives have a long shelf life and usually can be disposed of without special precautions.
+                Hot melt adhesives are ideal for situation where simplified
+processing, streamlined manufacturing, and end -product
+protection is required. Hot melt adhesives application
+applications are incredibly. The adhesives are used in
+manufacturing hygiene, furniture and packaging products as
+well as for medical, electronic and automotive application.
                 </p>
                 <button>Enquiry</button>
             </motion.div>
@@ -76,9 +79,12 @@ const Services = () => {
                 <img src="/water-based-adhesives.jpg" alt="water-based-adhesives-henkel" style={{width:"200px"}}/>
                 </p>
                 <p>
-                Aquence-Water Based Adhesive is a Innovative,sustainable, water-based adhesive solutions.
-                Henkels AQUENCE is the brand for innovative,sustainable, water-based adhesive solutions. As a the
-                global market leader in water-based adhesives AQUENCE improves our customers Total Cost of Ownership and product quality.                </p>
+                Aquence-Water Based Adhesive is an Innovative,
+sustainable, water-based adhesive solutions. Henkel's
+AQUENCE is the brand for innovative, sustainable,
+water-based adhesive solutions. As the global market
+leader in water-based adhesives AQUENCE improves our
+customer's Total Cost of Ownership and product quality.                </p>
                 <button href="#contact">Enquiry</button>
             </motion.div>
         </motion.div>

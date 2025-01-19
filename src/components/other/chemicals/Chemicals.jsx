@@ -16,7 +16,7 @@ const Chemicals = () => {
     <section>
     <div style={{
         width:"80%",
-        margin:"auto",
+        margin:"120px",
     }}>
       <h2 className="heading">TRADE</h2>
       <div className="chemical-items">

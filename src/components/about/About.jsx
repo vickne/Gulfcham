@@ -12,21 +12,21 @@ const About = () => {
         </div>
        <div className="column"> 
             <h2>About Us</h2>
-            <p>Gulfchem W.L.L, established in 2019, headed by its
-founder Mr. Abdul Munieer, is a leading Wholesaler,
-retailer, distributor of quality Chemicals & Adhesives
-(Hot-Melt Adhesives & Aquence Adhesives) at
-Kingdom of Bahrain. Our store located at BIW, Hidd,
-Kingdom of Bahrain involved in wholesale, retail and
-distribution activities through a professionally trained
-sales team.
-We, at Gulfchem WLL strive hard to offer our
-customers, a diverse and comprehensive portfolio of
-superior quality products from world-wide suppliers.</p><br/><br/>
+            <p>GulfKem Industrial Trading WLL, established in 2019,
+headed by its founder Mr. Abdul Munieer, is a leading
+Wholesaler, retailer, distributor of quality Chemicals &
+Adhesives (Hot-Melt Adhesives & Aquence Adhesives) at
+Kingdom of Bahrain. Our store located at AL Ramli,
+Salmabad Industrial area, Kingdom of Bahrain involved in
+wholesale, retail and distribution activities through a
+professionally trained sales team.
+We, at GulfKem strive hard to offer our customers, a
+diverse and comprehensive portfolio of superior quality
+products from world-wide suppliers.</p><br/><br/>
 <h2>OUR VISION</h2>
-<p>The vision of Gulfchem W.L.L is to offer technically
-compact, reliable and cost effective services to all our
-esteemed customers.</p><br/><br/>
+<p>The vision of GulfKem is to offer technically compact,
+reliable and cost effective services to all our esteemed
+customers.</p><br/><br/>
 <h2>OUR MISSION</h2>
 <p>We strive for ‘excellence’ by providing customized
 solutions, products & services that best satisfies the

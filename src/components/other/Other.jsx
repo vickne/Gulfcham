@@ -3,7 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const Other = ({ i, expanded, setExpanded, title, description }) => {
   const isOpen = i === expanded;
+  
+const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
+  const isOpen = j === expanded;
 
+  const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
+  const isOpen = k === expanded;
   return (
     <>
       <motion.div
@@ -49,6 +54,8 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
                     <li>Technomelt 300</li>
                     <li>Technomelt 2401</li>
                     <li>Technomelt 3625</li>
+                    <li>Technomelt 2414</li>
+                    <li>Technomelt Cleaner 103</li>
                 </ul>
             }
           </motion.section>
@@ -59,7 +66,7 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
         animate={{
           backgroundColor: isOpen ? "red" : "#003f66",
         }}
-        onClick={() => setExpanded(isOpen ? false : i)}
+        onClick={() => setExpanded(isOpen ? false : j)}
         style={{
           display: "flex",
           justifyContent: "space-between",
@@ -97,6 +104,7 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
                     <li>Aquence GA 060</li>
                     <li>Aquence LA 10</li>
                     <li>Aquence 709 H</li>
+                    <li>Aquence Seal 0106</li>
                 </ul>
             }
           </motion.section>
@@ -107,7 +115,7 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
         animate={{
           backgroundColor: isOpen ? "red" : "#003f66",
         }}
-        onClick={() => setExpanded(isOpen ? false : i)}
+        onClick={() => setExpanded(isOpen ? false : k)}
         style={{
           display: "flex",
           justifyContent: "space-between",

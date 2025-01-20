@@ -82,7 +82,7 @@ wholesale, retail and distribution activities.
             KINGDOM OF BAHRAIN
         </motion.div>
         <motion.div div className="imageContainer" variants={imageVariants} initial="initial" animate="animate">
-            <img src="/gulfchem-hero-new.png" alt="" />
+            <img src="/gulfchem-hero-one.png" alt="" />
         </motion.div>
     </div>
   )

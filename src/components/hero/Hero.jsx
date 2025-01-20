@@ -73,7 +73,7 @@ wholesale, retail and distribution activities.
 </motion.p>
                 <motion.div variants="textVariants"className="buttons">
                     <motion.button variants="textVariants"><a href="#trade">We Trade</a></motion.button>
-                    <a href="#contact"><motion.button variants="textVariants">Contact U</motion.button></a>
+                    <a href="#contact"><motion.button variants="textVariants">Contact Us</motion.button></a>
                 </motion.div>
                 <motion.img  style={{ overflow: 'scroll' }} variants="textVariants" animate="scrollButton" src="/scroll.png" alt="" />
             </motion.div>

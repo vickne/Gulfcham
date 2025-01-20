@@ -7,7 +7,7 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
 const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
   const isOpen = j === expanded;
 
-  const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
+  const OtherOne = ({ k, expanded, setExpanded, title, description }) => {
   const isOpen = k === expanded;
   return (
     <>

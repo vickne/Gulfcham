@@ -3,12 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const Other = ({ i, expanded, setExpanded, title, description }) => {
   const isOpen = i === expanded;
-  
-const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
-  const isOpen = j === expanded;
-
-  const OtherOne = ({ k, expanded, setExpanded, title, description }) => {
-  const isOpen = k === expanded;
   return (
     <>
       <motion.div
@@ -66,7 +60,7 @@ const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
         animate={{
           backgroundColor: isOpen ? "red" : "#003f66",
         }}
-        onClick={() => setExpanded(isOpen ? false : j)}
+        onClick={() => setExpanded(isOpen ? false : i)}
         style={{
           display: "flex",
           justifyContent: "space-between",
@@ -115,7 +109,7 @@ const OtherOne = ({ j, expanded, setExpanded, title, description }) => {
         animate={{
           backgroundColor: isOpen ? "red" : "#003f66",
         }}
-        onClick={() => setExpanded(isOpen ? false : k)}
+        onClick={() => setExpanded(isOpen ? false : i)}
         style={{
           display: "flex",
           justifyContent: "space-between",

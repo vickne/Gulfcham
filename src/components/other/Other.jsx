@@ -8,7 +8,7 @@ const Other = ({ i, expanded, setExpanded, title, description }) => {
       <motion.div
         initial={false}
         animate={{
-          backgroundColor: isOpen ? "red" : "#003f66",
+          backgroundColor: isOpen ? "#fcd125" : "#003f66",
         }}
         onClick={() => setExpanded(isOpen ? false : i)}
         style={{

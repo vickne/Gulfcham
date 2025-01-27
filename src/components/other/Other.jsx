@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Other = ({ i,j,k expanded, setExpanded, title, description }) => {
+const Other = ({ i expanded, setExpanded, title, description }) => {
   return (
     <>
       <motion.div
